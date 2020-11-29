@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background-color: hsl(185, 75%, 39%);
+  width: 1440px;
+  user-select: none;
+  overflow: hidden;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.img-top {
+  position: absolute;
+  top: -85%;
+  left: -25%;
+}
+.pfp {
+  position: relative;
+  top: -15%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 5px white;
+}
+.name {
+  position: relative;
+  top: -50px;
+}
+.city {
+  position: relative;
+  top: -50px;
+}
+span {
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+}
+hr {
+  border-style: none;
+  border-top-style: solid;
+  border-color: hsl(0, 20%, 89%);
+  border-width: 1px;
+  position: relative;
+  top: -7%;
+}
+p {
+  font-size: 18px;
+  font-weight: 700;
+}
+.stats1,
+.stats2,
+.stats3 {
+  display: inline-block;
+  width: 110px;
+  text-align: center;
+  position: relative;
+  top: -5%;
+}
+.substat1,
+.substat2,
+.substat3 {
+  display: inline-block;
+  width: 110px;
+  text-align: center;
+  position: relative;
+  top: -8%;
+}
+.pattern-card {
+  border-radius: 10px 10px 0 0;
+}
+.img-bottom {
+  position: absolute;
+  top: 60%;
+  left: 45%;
+}
+#container {
+  background-color: white;
+  width: 350px;
+  height: 400px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 50px 1px hsl(227, 10%, 46%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -200px -175px;
+  z-index: 1;
+}
